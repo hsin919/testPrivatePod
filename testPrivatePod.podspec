@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "testPrivatePod"
-  s.version      = "0.0.7"
+  s.version      = "0.0.8"
   s.summary      = "test private pod."
 
   s.description  = <<-DESC
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+   s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -143,7 +143,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/../privatePod/' }
+  s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/testPrivatePod/' }
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
 

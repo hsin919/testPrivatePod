@@ -3,7 +3,6 @@
 A sample for packing private pod.
 
 # Installation
-* Pull the repo
 * Add private pod to local machine as below
 
 ````

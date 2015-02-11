@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "testPrivatePod"
-  s.version      = "0.0.8"
+  s.version      = "0.0.9"
   s.summary      = "test private pod."
 
   s.description  = <<-DESC
@@ -143,7 +143,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/testPrivatePod/' }
+  s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '~/.cocoapods/repos/testPrivatePod' }
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
 

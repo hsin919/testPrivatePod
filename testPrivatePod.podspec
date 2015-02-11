@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "testPrivatePod"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "test private pod."
 
   s.description  = <<-DESC
@@ -119,7 +119,7 @@ Pod::Spec.new do |s|
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
-  s.preserve_paths = "testPrivatePod.a"
+  s.preserve_paths = "libtestPrivatePod.a"
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

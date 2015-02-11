@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "testPrivatePod"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "test private pod."
 
   s.description  = <<-DESC
@@ -143,7 +143,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/privatePod/' }
+  s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '${SRCROOT}/privatePod/' }
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
 

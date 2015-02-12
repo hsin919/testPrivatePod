@@ -13,5 +13,6 @@
 
 + (NSString *)printVersion;
 + (void)printTest;
++ (void)printTest2;
 
 @end
